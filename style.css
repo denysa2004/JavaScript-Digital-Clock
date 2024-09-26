@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    background-image: url(lisabon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:80px;
+    text-align:center;
+    font-weight:bold;
+    backdrop-filter: blur(5px);
+    background-color: rgb(253, 205, 139);
+}
